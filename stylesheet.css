@@ -1,0 +1,136 @@
+@font-face {
+    font-family: 'Norse Bold' ;
+    src: url(./fonts/norse-bold-webkit/norse-bold-webfont.woff);
+}
+
+
+
+.left-side{
+    display: flex;
+    align-items: center;
+    width: 35%;
+    background-image: url(./img/fern.jpg);
+    background-size: cover;
+    flex-direction: column;
+    justify-content: space-around;
+    color: white;
+    height: 100vh;
+    
+}
+.left-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 13rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;    
+    margin-bottom: 50vb;
+    font-family: 'Norse bold';
+    font-size: 50px;
+}
+.right-side{
+    width: 65%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  }
+  .right-side div{
+    flex: 1;
+  }
+.top-right{
+ background-color: whitesmoke;
+  padding-left: 50px;
+  padding-top: 90px;
+  margin-bottom: 100px;
+    height: auto;
+}
+.bottom-right{
+    background-color: whitesmoke;
+    margin-top: -10px;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+}
+body{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.right-middle{
+    background-color: white;
+  margin-top: -100px;
+  border-bottom: red;
+  margin-bottom: -10px;
+  height: fit-content;
+  
+}
+
+.top-right div{
+    width: 85%;
+    padding-top: 10%;
+    font-size: 30px;
+    margin-top: 0%;
+}
+
+h3{
+    padding-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+  }
+  
+  .form-row {
+    display: flex;
+    margin-right: 10px;
+    margin-left: 50px;
+  }
+  .form-row label {
+    display: block;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+  }
+  .form-row input {
+    width: 75%;
+    border-radius: 5px;
+    padding: 5px;
+    border: 1px solid #E5E7EB;
+  }
+  
+  .form-row input:focus {
+    border: 1px solid blue;
+    outline: none;
+  }
+  
+  
+  .input-group{
+    margin-bottom: 15px;
+  }
+
+  button{
+    width: 300px;
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: white;
+    background-color: #596D48;
+    border-radius: 10px;
+  }
+
+  footer, button{
+    margin-left: 40px;
+    
+  }
+
+  #pass:invalid{
+    border-color: red;
+  }
+
+  #pass_check:invalid{
+    border-color: red;
+  }
+
+body{
+    width: auto;
+    height: 100vh;
+}
